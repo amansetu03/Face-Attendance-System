@@ -12,8 +12,8 @@ from datetime import datetime
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://my-project-1-ee005-default-rtdb.firebaseio.com/",
-    'storageBucket': "my-project-1-ee005.appspot.com"
+    'databaseURL': "yor database url",
+    'storageBucket': "storage url"
 })
 
 def loadimg(id):
